@@ -3,7 +3,7 @@ use std::fs;
 pub fn day1_part1_part2() {
     // Temp sum value
     let mut sum: u32 = 0;
-    // Get calories from input file
+    // Get input from file
     let x = fs::read_to_string("src/day1/input.txt").expect("File could not be read");
     let lines = x.lines();
 
